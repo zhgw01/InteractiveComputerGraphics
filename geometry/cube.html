@@ -1,6 +1,33 @@
 <html>
-<head></head>
+<head>
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+	
+	<script src="../lib/three.js"></script>
+	<script src="../lib/Detector.js"></script>
+	<script src="../lib/OrbitControls.js"></script>
+	<script src="../lib/THREEx.KeyboardState.js"></script>
+	<script src="../lib/THREEx.FullScreen.js"></script>
+	<script src="../lib/THREEx.WindowResize.js"></script>
+	
+	<script src="../lib/demo.js"></script>
+</head>
+
 <body>
-	<h1>Cube</h1>
+
+<div>
+	<div id="vertex">
+	</div>
+
+	<div id="fragment">
+	</div>
+</div>
+
+<script >
+	
+	var cube = new THREE.Demo();
+	cube.animate();
+</script>
+
 </body>
+
 </html>
